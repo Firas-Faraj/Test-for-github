@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.first-up-section{
+width: 100%;
+height: 100vh;
+background-image: url(/oic.f3e8f033.jpg); 
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat9;
+background-color: silver;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding-top: 2rem;
+    padding: 2rem  1.5rem 0px 1.5rem;
+    color: snow;
+}
+.nav-bar .nav-main{
+display: flex;
+flex-direction: row-reverse;
+}
+.nav-list{
+    margin-left:20px;
+    list-style: none;
+}
+.first-up-section .content{
+    padding-top: 45vh;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+.first-up-section .content .writtin-sec-mid{
+    text-align: center;
+    color: snow;
+
+}
+.first-up-section .search-and-button{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.second-section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(19, 211, 195);
+}
+.second-section .speach-div{
+    width: 50%;
+    height: auto;
+    background-color: royalblue;
+       
+}
+.second-section .veritcals{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.second-section .veritcals .box-vert{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+.second-section .veritcals .box-vert.blue{
+    background-color: rgb(0, 0, 0);
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
